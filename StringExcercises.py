@@ -48,14 +48,12 @@ def remove_char(testString, n):
     print(first_part + second_part)
 
 
-
 # Question 4
 # Write a Python program to change a given
 # string to a new string where the first and last chars
 # have been exchanged.
 def swap_first_last(testString):
     print(testString[-1] + testString[1:-1:1] + testString[0])
-
 
 
 # Queston 5
