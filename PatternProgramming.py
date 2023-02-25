@@ -31,11 +31,6 @@ def NumberPyramid(rowNum):
 
 
 
-
-
-
-
-
 """
 1
 1 2
@@ -49,27 +44,6 @@ def NumPyramid2(rowNum):
             print(i, end=" ")
 
         print("\r")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 """

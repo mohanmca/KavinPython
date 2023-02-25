@@ -12,14 +12,14 @@ import time
 cookieCount = 0
 while True:
     cookieCount = cookieCount + 1 # Change cookieCount by +1
-    print("🍪" + " - " + str(cookieCount))
+    print("🍪"  + " - " + str(cookieCount))
 
     if cookieCount == 5:
         pass
 
     if cookieCount > 99:
         print("You win")
-        break # Terminate the loop immediately
+        break   # Terminate the loop immediately
 
     # The continue statement exits the loop immediately
     # and starts a new iteration in the same loop
