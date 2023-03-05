@@ -1,8 +1,0 @@
-items = ['foo', 'bar', 'baz', 'qux']
-
-for item in items:
-    if item == 'bazz':
-        print('found it')
-        break
-else:
-    print('never found it')
