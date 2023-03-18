@@ -52,3 +52,16 @@ print("\r")
 # Example
 # testString = "GhostTownOhio"
 # Output = T t s o h G
+
+count = 0
+temp_str = ""
+for eachLetter in testString:
+    if eachLetter == "O" or eachLetter == "o":
+        count = count + 1
+    if count == 2:
+        break
+
+    # Add each letter into the temp-str
+    temp_str = temp_str + eachLetter
+
+print(temp_str[::-1])
